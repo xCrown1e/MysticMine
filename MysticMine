@@ -16,7 +16,7 @@ wait(4)
 targetmulti = 1 -- If The Multiplier Of A Coin Is Higher Or Equal To This It Will Break It
 breakgiantchest = true -- Weather To Break The Giant Mine Chest Even If Its Below The Multi
 breakbigchests = true -- Weather To Break The Big Mine Chests Even If They Are Below The Multi
-WEBHOOK = "https://discord.com/api/webhooks/1096272194859958333/7S7FoSSM2mlxN92HZUDiczAiAtKRsEkSczzRH1gAgGWuGMM_f2IM1WOiaU3rXgMjjknA" -- Webhook
+WEBHOOK = "https://discord.com/api/webhooks/1113016788955971604/dZzEgjMLe09XaDLiqkbzBzd6xLUI1b54xt2OiW7i5IVPskX0XmNk0ltMisWn7T603nKE" -- Webhook
 
 local oldJob = game.JobId
 
