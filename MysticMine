@@ -1,4 +1,4 @@
-script_key = "SjQHTAyHEwIKRZGxPmsDlFpRnInMlslm"
+script_key="SjQHTAyHEwIKRZGxPmsDlFpRnInMlslm";
 
 Settings = {
     ["On Screen Trackers"] = false,
