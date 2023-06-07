@@ -35,7 +35,7 @@ Settings = {
     ["Fruit"] = {
         ["Farm Fruit If Low"] = true,
         ["Min Fruit"] = 0, -- Starts Farming If Below This
-        ["Max Fruit"] = 150, -- Stops Farming Once Above This
+        ["Max Fruit"] = 0, -- Stops Farming Once Above This
         ["Mode"] = "Pixel Vault" -- Pixel Vault or Server Hop
     },
     ["Boosts"] = {
