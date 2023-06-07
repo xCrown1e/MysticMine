@@ -2,7 +2,7 @@
 Settings = {
     ["On Screen Trackers"] = true,
     ["Performance"] = {
-        ["Disable 3D Rendering"] = false,
+        ["Disable 3D Rendering"] = true,
         ["Diable Orb Rendering"] = true,
         ["Disable Lootbags"] = true
     },
