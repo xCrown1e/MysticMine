@@ -1577,7 +1577,7 @@ if tt >= Settings["Webhooks"]["Timeframe"] then
     writefile("timeframe.txt", "0")
 end
 pcall(WH)
-wait(1)
+wait(10)
 
 function sHopper()
     local endpoint = game.HttpService:JSONDecode(game:HttpGet('https://games.roblox.com/v1/games/6284583030/servers/Public?sortOrder=Asc&limit=100'))
