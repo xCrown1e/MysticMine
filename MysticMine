@@ -1459,7 +1459,7 @@ function WH()
             ["content"] = "",
             ["embeds"] = {
 			    {
-			      ["title"] = "Server Hop Stat Update (v3)",
+			      ["title"] = "Server Hop Stat Update (v4)",
 			      ["description"] = "Successfully Broke Everything In Server. Hopping To New Server!",
 			      ["color"] = tonumber(0x0f0063),
 			      ["fields"] = {
