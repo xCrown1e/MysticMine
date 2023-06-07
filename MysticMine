@@ -1,4 +1,5 @@
-fpscap(10)
+game:GetService("RunService"):Set3dRenderingEnabled(false)
+
 Settings = {
     ["On Screen Trackers"] = true,
     ["Performance"] = {
