@@ -1,7 +1,5 @@
-game:GetService("RunService"):Set3dRenderingEnabled(false)
-  
 Settings = {
-    ["On Screen Trackers"] = false,
+    ["On Screen Trackers"] = true,
     ["Performance"] = {
         ["Disable 3D Rendering"] = false,
         ["Diable Orb Rendering"] = true,
@@ -34,16 +32,22 @@ Settings = {
         ["Nickname"] = "Farm"
     },
     ["Fruit"] = {
-        ["Farm Fruit If Low"] = false,
-        ["Min Fruit"] = 0, -- Starts Farming If Below This
-        ["Max Fruit"] = 100, -- Stops Farming Once Above This
-        ["Mode"] = "Pixel Vault" -- Pixel Vault or Server Hop
+        ["Farm Fruit If Low"] = true,
+        ["Min Fruit"] = 50, -- Starts Farming If Below This
+        ["Max Fruit"] = 150, -- Stops Farming Once Above This
+        ["Mode"] = "Server Hop" -- Pixel Vault or Server Hop
     },
     ["Boosts"] = {
         ["Triple Damage"] = true,
         ["Server Damage"] = true
     }
 }
+
+if Settings["Performance"]["Disable 3D Rendering"] then
+    game:GetService("RunService"):Set3dRenderingEnabled(false)
+else
+    game:GetService("RunService"):Set3dRenderingEnabled(true)
+end
 
 local Http = game:GetService("HttpService")
 
@@ -57,7 +61,6 @@ if not game:IsLoaded() then
     while not game:IsLoaded() do wait(1) end
 end
 
-if Settings["Performance"]["Disable 3D Rendering"] then game:GetService("RunService"):Set3dRenderingEnabled(false) end
 
 local totallabelsize = 0
 
