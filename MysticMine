@@ -1,4 +1,27 @@
-task.wait(2)
-script_key="hyaHetSvLcPWZDxrpOMfPsLPycgVxYqf";
--- Cyanide Diamond Farmer
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a9c3e4e1fa35c9f5684e9e4cb9021191.lua"))()
+script_key="cOgRgwnxOyoTDqJsSioHFRhMGiVzYqTM";
+Config = {
+    IgnoreHardcore = false, -- Only Matters If Using Ingame Hop Mode
+    Webhook = "https://discord.com/api/webhooks/1113016788955971604/dZzEgjMLe09XaDLiqkbzBzd6xLUI1b54xt2OiW7i5IVPskX0XmNk0ltMisWn7T603nKE",
+    DisableServerHop = false, -- Disables the server hopping, allowing you to farm in a VIP Server etc
+    HopMode = "Custom",
+    CustomHopModeConfig = {
+        Priority = "Both" -- "High": High Player Servers, "Low": Low Player Servers, "Both": Randomly Chooses Between  High and Low
+    },
+
+    -- Hope Modes:
+
+    -- "Ingame": Utilizes the ingame function to hop, for *possibly* more stability | Drawbacks: Switches between Hardcore//Normal
+    -- "Custom": The Server hop we used for Comet farming, Reworked to work on Windows Store
+
+    -- *note both hop modes will eventually crash, because windows store roblox = dogshit :D*
+
+    Multipliers = {
+        Minimum_Chest = 0, -- Only breaks the chest if it has with (x)+ multiplier,
+        Minimum_CyberChest = 0, -- Only breaks the cyber cavern chest if it has with (x)+ multiplier,
+        Minimum_Mine = 0 -- Only breaks coins in the mine with (x)+ multiplier
+    },
+
+    DisableCustomLoadingScreen = true -- Highly Suspected To Cause Some Crashes, As Windows store just is that terrible
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/73f8ea775e5e8e7e4c83aa5272416c30.lua"))()
