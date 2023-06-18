@@ -1,7 +1,7 @@
 script_key="cOgRgwnxOyoTDqJsSioHFRhMGiVzYqTM";
 Config = {
     IgnoreHardcore = false, -- Only Matters If Using Ingame Hop Mode
-    Webhook = "https://discord.com/api/webhooks/1113016788955971604/dZzEgjMLe09XaDLiqkbzBzd6xLUI1b54xt2OiW7i5IVPskX0XmNk0ltMisWn7T603nKE",
+    Webhook = "https://discord.com/api/webhooks/1119140729961320558/IyhatblnRuiWQya-fIzLOfg632y3Oxq7946Gl9LmSiPcfICjUsTxfQfVRWqruV7wLe6t",
     DisableServerHop = false, -- Disables the server hopping, allowing you to farm in a VIP Server etc
     HopMode = "Custom",
     CustomHopModeConfig = {
